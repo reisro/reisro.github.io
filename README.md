@@ -7,22 +7,12 @@ My last works are targeting mainly in Unreal game engine and game engine program
 
 My last studies are in developing a math library to be used in the rain forest engine. It will feature math game programming related functions such as operations in vectors, matrices and quaternions.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
