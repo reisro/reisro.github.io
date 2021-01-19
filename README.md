@@ -10,7 +10,11 @@ My last studies are in developing a math library to be used in the rain forest e
 I start with a Vector class that will represent a Vector, of course, in the library. Basic constructor and override constructors with diferent parameters to make it flexible enough.
 
 ```c++
-// constructors
+class rfVector3
+{
+public:
+
+	// constructors
 	rfVector3();
 	rfVector3(double x, double y, double z);
 	rfVector3(const rfVector3& _vector);
