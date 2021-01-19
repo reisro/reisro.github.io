@@ -3,7 +3,7 @@
 Hello. My name is Rodrigo. I am from Brazil and here you can find my personal works I have been doing with game programming.
 My last works are targeting mainly in Unreal game engine and game engine programming.
 
-### Last Studies
+### Math Library
 
 My last studies are in developing a math library to be used in the rain forest engine. It will feature math game programming related functions such as operations in vectors, matrices and quaternions.
 
