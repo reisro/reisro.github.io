@@ -7,7 +7,7 @@ My last works are targeting mainly in Unreal game engine and game engine program
 
 My last studies are in developing a math library to be used in the rain forest engine. It will feature math game programming related functions such as operations in vectors, matrices and quaternions.
 
-```javascript
+```c++
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
