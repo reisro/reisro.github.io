@@ -7,12 +7,14 @@ My last works are targeting mainly in Unreal game engine and game engine program
 
 My last studies are in developing a math library to be used in the rain forest engine. It will feature math game programming related functions such as operations in vectors, matrices and quaternions.
 
+I start with a Vector class that will represent a Vector, of course, in the library. Basic constructor and override constructors with diferent parameters to make it flexible enough.
+
 ```c++
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+// constructors
+	rfVector3();
+	rfVector3(double x, double y, double z);
+	rfVector3(const rfVector3& _vector);
+	~rfVector3();
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
