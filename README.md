@@ -24,6 +24,25 @@ public:
 	~rfVector3();
 ```
 
+I will feature main operations line Addition, Subtraction and scalar multiplication. For that, I take advantage of operator overloading features of C++ that does this work to me. I simply create static functions that I need to pass vectors as arguments that will be affected by the operation.
+
+```c++
+rfVector3& rfVector3::Addition(const rfVector3& vector, const rfVector3& otherVector)
+{
+	return *new rfVector3(vector.operator+(otherVector));
+}
+
+rfVector3& rfVector3::Subtraction(const rfVector3& vector, const rfVector3& otherVector)
+{
+	return *new rfVector3(vector.operator-(otherVector));
+}
+
+rfVector3& rfVector3::Scalar(const rfVector3& vector, const double scalar)
+{
+	return *new rfVector3(vector.operator*(scalar));
+}
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
