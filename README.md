@@ -42,5 +42,5 @@ rfVector3& rfVector3::Scalar(const rfVector3& vector, const double scalar)
 	return *new rfVector3(vector.operator*(scalar));
 }
 ```
-![Image of Yaktocat](https://imgur.com/pGvfKR9)
+![Image of Yaktocat][Imgur](https://i.imgur.com/pGvfKR9.png)
 Vector Operations
